@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    vector<int> v={2,4,5,7};
+
+
+       v.pop_back();
+       for(int i:v)
+       {
+           cout<<i<<endl;
+       }
+
+
+
+
+}
