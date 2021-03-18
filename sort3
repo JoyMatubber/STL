@@ -1,0 +1,17 @@
+##include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    vector<int> v={5,6,4,7,4,5,7,4};
+
+    sort(v.begin()+1,v.begin()+6);
+   for(int c:v)
+   {
+       cout<<c<<" ";
+   }
+
+
+
+}
