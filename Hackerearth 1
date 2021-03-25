@@ -1,0 +1,53 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+int i,n,m,x,a,c=0;
+cin>>n;
+
+
+
+
+    vector<int> v;
+
+
+
+    for(i=0;i<n;i++)
+    {
+        cin>>m>>x;
+         for(int j=0;j<m;j++)
+         {
+             cin>>a;
+        v.push_back(a);
+         }
+
+       sort(v.begin(),v.end());
+  int sz=unique(v.begin(),v.end())-v.begin();
+  if(sz>x)
+  {
+      cout<<"Avg"<<endl;
+  }
+  else if(sz==x)
+  {
+      cout<<"good"<<endl;
+  }
+  else
+  {
+      cout<<"bad"<<endl;
+  }
+
+    }
+
+
+
+
+
+
+
+
+
+}
+
