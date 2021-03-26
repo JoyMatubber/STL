@@ -1,0 +1,30 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i;
+    vector <string> s;
+s.push_back("ran");
+s.push_back("joy");
+s.push_back("Aan");
+s.push_back("kana");
+
+s.push_back("dad");
+s.push_back("jpa");
+
+sort(s.begin(),s.end(),greater<string>());
+
+
+for(string a:s)
+{
+   cout<<a<<endl;
+}
+
+
+
+
+
+
+
+}
