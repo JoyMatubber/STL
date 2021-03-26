@@ -1,0 +1,28 @@
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+
+string s,s1,s2;
+char ch;
+cin>>s1>>s2;
+s1+='o';
+s2+='u';
+cin>>ch;
+
+s=s1+ch+s2;
+cout<<s<<endl;
+
+
+
+
+
+
+}
+
+
+string concatenation
