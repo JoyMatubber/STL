@@ -1,0 +1,55 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int i,n;
+
+cin>>n;
+while(n--)
+{
+    set<int> s;
+    int t;
+    cin>>t;
+    int m;
+    for(i=0;i<t;i++)
+    {
+        cin>>m;
+        s.insert(m);
+    }
+    cout<<" first element "<<*s.begin()<<endl;
+    cout<<"element of the set ;";
+    for(auto u:s)
+    {
+
+
+        cout<<u<<" ";
+
+    }
+    cout<<endl;
+    cout<<"Last element "<<*(--s.end());
+    cout<<endl;
+    cout<<"Count element"<<s.count(2)<<endl;
+    cout<<"delet first element "<<endl;
+    s.erase(s.begin());
+
+    cout<<"last element delet"<<endl;
+    s.erase(--s.end());
+
+    cout<<"delet random element "<<endl;
+    s.erase(2);
+    cout<<"Delet after all property final set is  "<<endl;
+    for(auto y: s)
+
+    {
+        cout<<y<<endl;
+    }
+
+
+
+
+}
+
+
+
+}
